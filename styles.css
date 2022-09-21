@@ -1,0 +1,52 @@
+html {
+    margin: 0;
+    scroll-behavior: smooth;
+    --select-border: #777;
+    --select-focus: blue;
+     --gray: #f9f9ff;
+}
+  
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--gray);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.badan-formulir {
+    background: rgb(229, 236, 241);
+    border-radius: 16px;
+    box-shadow: 6px 4px 25px rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    padding: 35px;
+    border-radius: 20px;
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    row-gap: 1rem;
+  }
+
+h1,
+h2,
+h3
+{
+  color: #000;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  align-self: center;
+}
+
+h4{
+    text-align: left;
+}
+
+h5{
+    text-align: right;
+}
